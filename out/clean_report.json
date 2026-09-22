@@ -1,0 +1,22 @@
+{
+  "dedupe": {
+    "rows_before": 12528,
+    "rows_after": 11875,
+    "duplicate_ticket_ids": 653
+  },
+  "timezone": {
+    "rows_shifted": 3109,
+    "impossible_before": 1874,
+    "impossible_after": 0
+  },
+  "csat": {
+    "zeros_nulled": 1750,
+    "mean_if_zeros_kept": 2.489,
+    "mean_corrected": 3.315,
+    "response_rate_pct": 44.4
+  },
+  "anomalies": {
+    "open_or_pending_with_csat": 285,
+    "note": "policy s8 surveys on resolution; these are excluded from CSAT"
+  }
+}

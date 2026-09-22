@@ -1,0 +1,6 @@
+.env
+out/cache/
+out/llm_calls.jsonl
+__pycache__/
+*.pyc
+.venv/
