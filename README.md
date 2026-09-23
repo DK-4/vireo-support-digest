@@ -173,7 +173,7 @@ Produced by `python run.py --stage all --mode mock` on 21 Sep 2026.
 | `leaderboard.md` | Requested ranking and corrected ranking side by side, Tier 2 separate. Fully deterministic — no model involvement. |
 | `breach_watchlist.csv` | The 178 over-compensated orders for Finance, worst first, with every ticket ID. |
 | `eval_sample.csv` | 96 blind tickets for you to label. |
-| `eval_sample_FAKE_filled.csv` | **Synthetic** labels (78% agreement, 3 blanks) used only to prove `evaluate.py` runs. Delete it. |
-| `eval_report_FAKE_PROOF.md` | Output of that proof run. **Not a real accuracy figure.** |
+| `eval_sample_filled.csv`      | Your real, hand-labelled gold set (96 tickets, blind).                                          |
+| `eval_report.md` / `.json`    | Real evaluation: 67.7% accuracy (95% CI 57.8–76.2%) — scores the MOCK keyword fallback, not a live model. Full confusion matrix inside. |
 | `clean_report.json` | What the three corrections touched. |
 | `tickets_clean.parquet` | Cleaned tickets, regenerable. |
